@@ -7,16 +7,16 @@ import org.mockito.junit.jupiter.MockitoExtension;
 import org.junit.jupiter.api.extension.ExtendWith;
 
 @ExtendWith(MockitoExtension.class) 
-public class StorlekPaSallskapServiceTest {
+public class StorlekPaSallskapTest {
 
     @Mock
     private Utskriftstjanst mockUtskriftstjanst;
 
     @InjectMocks
-    private StorlekPaSallskapService service;
+    private StorlekPaSallskap service;
 
     @Test
-    public void testStorlekGodkandSkaAnropaLoggningEnGong() {
+    public void testStorlekGodkandSkaAnropaLoggningEnGang() {
         int giltigStorlek = 5;
         
         service.hanteraStorlek(giltigStorlek);

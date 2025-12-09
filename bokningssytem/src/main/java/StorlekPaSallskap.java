@@ -1,8 +1,8 @@
-public class StorlekPaSallskapService {
+public class StorlekPaSallskap {
     
     private final Utskriftstjanst loggen;
 
-    public StorlekPaSallskapService(Utskriftstjanst utskriftstjanst) {
+    public StorlekPaSallskap(Utskriftstjanst utskriftstjanst) {
         this.loggen = utskriftstjanst;
     }
 
@@ -16,6 +16,7 @@ public class StorlekPaSallskapService {
         }
     }
 }
+
 /*public class StorlekPaSallskap {
 
     public boolean giltigStorlek(int sallskapStorlek) {
