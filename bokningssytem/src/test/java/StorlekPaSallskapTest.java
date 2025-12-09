@@ -36,7 +36,9 @@ public class StorlekPaSallskapTest {
     }
 }
 
-/*import org.junit.jupiter.api.Test;
+/*gamla koden
+
+import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 public class StorlekPaSallskapTest {

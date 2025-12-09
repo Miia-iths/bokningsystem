@@ -17,7 +17,9 @@ public class StorlekPaSallskap {
     }
 }
 
-/*public class StorlekPaSallskap {
+/*gamla koden
+
+public class StorlekPaSallskap {
 
     public boolean giltigStorlek(int sallskapStorlek) {
 
